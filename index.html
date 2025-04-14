@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Section -->
+    <nav>
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Foundation Logo">
+            </a>
+            <ul>
+                <li class="active"><a href="#">About Us</a>
+                    <ul>
+                        <li><a href="#">Who We Are</a></li>
+                        <li><a href="#">History</a></li>
+                        <li><a href="#">Awards</a></li>
+                        <li><a href="#">Leadership</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#">Our Work</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Strategy</a></li>
+                        <!-- Link to DISASTER PREPAREDNESS PROGRAMS section -->
+                        <li><a href="#disaster-programs">Programs</a></li>
+                        <li><a href="#">Locations</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#">Our Impact</a>
+                    <ul class="dropdown">
+                        <li><a href="#">Stories</a></li>
+                        <li><a href="#">Measuring Impact</a></li>
+                        <li><a href="#">Reports</a></li>
+                    </ul>
+                </li>
+                <li class="active"><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Picture Slider Section (CSS-Only Slider) -->
+    <section class="slider">
+
+        <!-- Radio buttons to control slides -->
+        <input type="radio" name="slide" id="slide1" checked>
+        <input type="radio" name="slide" id="slide2">
+
+        <!-- Slides -->
+        <div class="slides">
+            <div class="slide">
+                <img src="slide10.jpeg" alt="Slide 1">
+                <div class="caption">
+                    <h2>Sama-samang Pagtulong</h2>
+                    <p>(Working Together, Progressing Further)</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="slide11.jpeg" alt="Slide 2">
+                <div class="caption">
+                    <h2>Empowering Communities</h2>
+                    <p>Building a sustainable future for all.</p>
+                </div>
+            </div>
+            <!-- Add more slides as needed -->
+        </div>
+
+        <!-- Labels for arrows -->
+        <label for="slide1" class="prev">&#10094;</label>
+        <label for="slide2" class="next">&#10095;</label>
+
+    </section>
+
+    <section class="about-section">
+        <div class="about-content">
+            <h2>About Our Foundation</h2>
+            <p>Our foundation was established to spearhead impactful projects, addressing not only our direct community but the entire country. We work with various groups and communities, focusing on uplifting lives and creating sustainable solutions.</p>
+            <p>We currently have projects across multiple regions such as Batangas, Bohol, Misamis Oriental, Cagayan de Oro, and more. Through our efforts, we’ve touched over 15 million lives in the past 40 years, and we continue to extend our programs to more regions in need.</p>
+            <a href="#" class="about-btn">More About Us</a>
+        </div>
+    
+        <div class="map-container">
+            <img src="map.png" alt="Map showing our project locations">
+        </div>
+    </section>
+
+    <!-- Programs Section with updated id -->
+<section class="programs-section">
+    <h2>DISASTER PREPAREDNESS PROGRAMS</h2>
+    <p>Our work focuses on disaster preparedness, emergency response, and recovery efforts to help communities in times of crisis. Explore our resources below:</p>
+    <div class="programs-grid">
+        <div class="program">
+            <div class="program-image" style="background-color: #f3b700;"> <!-- Change colors as needed -->
+                <h3><a href="disasterpreparedness.html">Disaster Preparedness</a></h3>
+            </div>
+            <p>Step-by-step guides on preparing for common disasters in the Philippines, along with resources like checklists and evacuation plans.</p>
+        </div>
+        <div class="program">
+            <div class="program-image" style="background-color: #0072bc;">
+                <h3>Emergency Contact Information</h3>
+            </div>
+            <p>❖ Local Emergency Numbers<br>❖ Hotline Information</p>
+            <p>List of emergency contacts for local government units, hospitals, and other critical services, with one-tap call features.</p>
+        </div>
+        <div class="program">
+            <div class="program-image" style="background-color: #d9534f;">
+                <h3>Community Reporting and Sharing</h3>
+            </div>
+            <p>❖ Crowd Source Report<br>❖ Social Media Integration</p>
+            <p>Enable users to report disaster-related information and share updates with family and friends through social media.</p>
+        </div>
+        <div class="program">
+            <div class="program-image" style="background-color: #5cb85c;">
+                <h3>Relief and Recovery Assistance</h3>
+            </div>
+            <p>❖ Relief Center Locator<br>❖ Donation Coordination<br>❖ Damage Reporting</p>
+            <p>Locate relief centers, coordinate donations, and report damage to aid recovery efforts post-disaster.</p>
+        </div>
+        <div class="program">
+            <div class="program-image" style="background-color: #ff7700;">
+                <h3>Project Volunteer Network</h3>
+            </div>
+            <p>❖ Volunteer Sign-Up<br>❖ Volunteer Coordination Tools</p>
+            <p>Join our volunteer network for disaster response tasks and use coordination tools for effective deployment.</p>
+        </div>
+    </div>
+</section>
+
+    <section class="inspiration-section">
+        <h2>Stories of Inspiration</h2>
+        <div class="inspiration-grid">
+            <div class="inspiration-story">
+                <img src="story1.jpg" alt="Story 1 Image">
+                <div class="story-content">
+                    <h3>Surviving Typhoon Goni: 11-Year-Old Mico's Story</h3>
+                    <p>This article shares the story of Mico, an 11-year-old boy from the Philippines, who survived Typhoon Goni, one of the strongest storms in recent history. It highlights his resilience, how he coped with the destruction, and the support he and his family received from World Vision's relief efforts to rebuild their lives.</p>
+                    <a href="https://www.wvi.org/stories/disaster-management/surviving-typhoon-goni-11-year-old-micos-story" target="_blank" class="read-article-btn">Read Article</a>
+                </div>
+            </div>
+            <div class="inspiration-story">
+                <img src="story2.png" alt="Story 2 Image">
+                <div class="story-content">
+                    <h3>Stories of Resilience from Yolanda Survivors</h3>
+                    <p>This piece tells the stories of survivors from Typhoon Yolanda (Haiyan), which devastated the Philippines in 2013. It focuses on how individuals and communities rebuilt their lives and livelihoods through perseverance, the help of humanitarian organizations like World Vision, and the ongoing recovery and rehabilitation efforts.</p>
+                    <a href="https://www.worldvision.org.ph/stories-of-resilience-from-yolanda-survivors/" target="_blank" class="read-article-btn">Read Article</a>
+                </div>
+            </div>
+            <div class="inspiration-story">
+                <img src="story3.jpg" alt="Story 3 Image">
+                <div class="story-content">
+                    <h3>Bayanihan Spirit After Typhoon Odette</h3>
+                    <p>The article discusses the "bayanihan" (community cooperation) spirit that emerged after Typhoon Odette hit the Philippines. It showcases how individuals and communities banded together to provide relief, rebuild, and support each other in the aftermath of the disaster. The story also highlights notable figures and organizations who were involved in the relief efforts.</p>
+                    <a href="https://www.philstar.com/other-sections/newsmakers/2022/01/11/2153001/bayanihan-spirit-after-typhoon-odette" target="_blank" class="read-article-btn">Read Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Foundation. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
